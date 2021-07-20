@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def root():
-    return render_template("index.html")
+    return render_template("templates/index.html")
 
 @application.route("/cicd")
 def helppage():
